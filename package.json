@@ -5,6 +5,7 @@
   "description": "Home page App",
   "main": "webpack.config.js",
   "dependencies": {
+    "g": "^2.0.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
