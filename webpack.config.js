@@ -3,10 +3,10 @@ var webpack=require('webpack');
 var htmlWebpackPlugin=require('html-webpack-plugin');
 const { ModuleFederationPlugin } = require("webpack").container;
 module.exports = {
-    mode: 'development',
+    mode: 'production',
     entry:"./src/index.js",
     output:{
-       // publicPath: "http://localhost:3001/"
+        publicPath: "http://localhost:3001/"
     },
     module:{
         rules:[
@@ -37,10 +37,10 @@ module.exports = {
             }
         ]
     },
- //   devServer:{
-  //   contentBase: path.join(__dirname,"dist"),
-   //   port: 3001
-   // },
+     devServer:{
+      contentBase: path.join(__dirname,"dist"),
+      port: 3001
+     },
   /*  optimization: {
         splitChunks: {
          cacheGroups: {
