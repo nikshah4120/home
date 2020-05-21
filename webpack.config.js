@@ -37,10 +37,10 @@ module.exports = {
             }
         ]
     },
-     devServer:{
-      contentBase: path.join(__dirname,"dist"),
-      port: process.env.port
-     },
+  //   devServer:{
+  //    contentBase: path.join(__dirname,"dist"),
+  //    port: process.env.port
+  //   },
   /*  optimization: {
         splitChunks: {
          cacheGroups: {
