@@ -39,7 +39,7 @@ module.exports = {
     },
      devServer:{
       contentBase: path.join(__dirname,"dist"),
-      port: 3001
+      port: process.env.port
      },
   /*  optimization: {
         splitChunks: {
