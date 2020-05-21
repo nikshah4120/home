@@ -6,7 +6,7 @@ module.exports = {
     mode: 'production',
     entry:"./src/index.js",
     output:{
-        publicPath: "http://localhost:3001/"
+        publicPath: "/"
     },
     module:{
         rules:[
