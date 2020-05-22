@@ -63,7 +63,7 @@ module.exports = {
             filename: 'remoteEntry.js',
             library: {type:'var', name:'app_home'},
             exposes:{
-             AppContainer:'./src/index',
+             AppContainer:'./src/app',
             },
             shared:['react','react-dom','react-router-dom']
         }),
