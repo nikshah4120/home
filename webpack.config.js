@@ -6,7 +6,7 @@ module.exports = {
     mode: 'production',
     entry:"./src/index.js",
     output:{
-        publicPath: "http://localhost:8080/"
+        publicPath: "https://dashboard-home.herokuapp.com/"
     },
     module:{
         rules:[
